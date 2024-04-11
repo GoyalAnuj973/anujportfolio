@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/anujportfolio/static/css/main.c55bdca2.css",
+    "main.js": "/anujportfolio/static/js/main.c9875edf.js",
+    "static/js/453.9bcdf921.chunk.js": "/anujportfolio/static/js/453.9bcdf921.chunk.js",
+    "static/media/HeroImage.jpg": "/anujportfolio/static/media/HeroImage.ca59ff55158665d3a253.jpg",
+    "static/media/antdesignlogo.png": "/anujportfolio/static/media/antdesignlogo.fad4c4c9913f0e6a0ba0.png",
+    "static/media/gitlogo.png": "/anujportfolio/static/media/gitlogo.8322c082f223fd807d36.png",
+    "static/media/DAVCMCLOGO.png": "/anujportfolio/static/media/DAVCMCLOGO.c33298c1716fff80a229.png",
+    "static/media/vuejslogo.png": "/anujportfolio/static/media/vuejslogo.2bfaa1f16ea7316651bf.png",
+    "static/media/angularlogo.png": "/anujportfolio/static/media/angularlogo.8ab393e7903ea095746e.png",
+    "static/media/RTKlogo.jpg": "/anujportfolio/static/media/RTKlogo.cd656bc8cc842ef30540.jpg",
+    "static/media/LNMIITLogo.png": "/anujportfolio/static/media/LNMIITLogo.ce68b6aa001cbce9c057.png",
+    "index.html": "/anujportfolio/index.html",
+    "main.c55bdca2.css.map": "/anujportfolio/static/css/main.c55bdca2.css.map",
+    "main.c9875edf.js.map": "/anujportfolio/static/js/main.c9875edf.js.map",
+    "453.9bcdf921.chunk.js.map": "/anujportfolio/static/js/453.9bcdf921.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55bdca2.css",
+    "static/js/main.c9875edf.js"
+  ]
+}
