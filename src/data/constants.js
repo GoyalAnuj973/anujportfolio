@@ -17,13 +17,15 @@ import postmanlogo from '../images/postmanlogo.png';
 import gitlogo from '../images/gitlogo.png';
 import playtubeimg from '../images/PlayTubeImg.png';
 import genaifliximg from '../images/GenAIFlixSS.png';
+import rapidcanvaslogo from '../images/rclogo.svg';
 
 export const Bio = {
   name: "Anuj Goyal",
   roles: [
-    "Frontend Developer",
     "Full Stack Developer",
+    "Frontend Developer",
     "UI/UX Developer",
+    "Backend Engineer",
     "Software Engineer",
   ],
   description:
@@ -112,6 +114,55 @@ export const skills = [
         name: "Vue Js",
         image: vuelogo,
       },
+      // ---- Added from resume ----
+      {
+        name: "TanStack Query",
+        image: "https://api.iconify.design/logos:react-query-icon.svg",
+      },
+      {
+        name: "React Router",
+        image: "https://api.iconify.design/logos:react-router.svg",
+      },
+      {
+        name: "React Flow",
+        // NOTE: no widely-mirrored brand icon for React Flow exists yet; verify this renders, else swap for a generic flow/diagram icon
+        image: "https://api.iconify.design/logos:react-flow.svg",
+      },
+      {
+        name: "Monaco Editor",
+        // NOTE: no dedicated brand icon; using VS Code icon as a stand-in since Monaco is VS Code's editor core
+        image: "https://cdn.simpleicons.org/visualstudiocode/007ACC",
+      },
+      {
+        name: "Vite",
+        image: "https://api.iconify.design/logos:vitejs.svg",
+      },
+      {
+        name: "Webpack",
+        image: "https://api.iconify.design/logos:webpack.svg",
+      },
+      {
+        name: "Jest",
+        image: "https://api.iconify.design/logos:jest.svg",
+      },
+      {
+        name: "React Testing Library",
+        image: "https://api.iconify.design/logos:testing-library.svg",
+      },
+      {
+        name: "Axios",
+        image: "https://api.iconify.design/logos:axios.svg",
+      },
+      {
+        name: "Sass/SCSS",
+        image: "https://api.iconify.design/logos:sass.svg",
+      },
+      {
+        name: "React Native",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        // reusing the React logo since React Native shares the same brand mark
+      },
     ],
   },
   {
@@ -124,7 +175,7 @@ export const skills = [
       {
         name: "Express Js",
         image:
-          "data:image/png;base64,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",
+          "data:image/png;base64,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",
       },
       {
         name: "Graph Ql",
@@ -165,6 +216,37 @@ export const skills = [
         name: "Spring Boot",
         image: springbootlogo,
       },
+      // ---- Added from resume ----
+      {
+        name: "Django",
+        image: "https://api.iconify.design/logos:django-icon.svg",
+      },
+      {
+        name: "FastAPI",
+        image: "https://api.iconify.design/logos:fastapi-icon.svg",
+      },
+      {
+        name: "JWT / OAuth2",
+        image: "https://api.iconify.design/logos:jwt-icon.svg",
+      },
+      {
+        name: "Hibernate / JPA",
+        image: "https://api.iconify.design/logos:hibernate.svg",
+      },
+      {
+        name: "Protocol Buffers",
+        // NOTE: no widely-mirrored brand icon; verify this renders, else swap for a generic icon
+        image: "https://api.iconify.design/logos:protobuf.svg",
+      },
+      {
+        name: "Redis Queue / Celery",
+        image: "https://api.iconify.design/logos:celery.svg",
+      },
+      {
+        name: "SSE",
+        // NOTE: Server-Sent Events has no brand icon; using a generic broadcast/signal icon
+        image: "https://api.iconify.design/mdi:access-point.svg",
+      },
     ],
   },
   // {
@@ -192,6 +274,95 @@ export const skills = [
   //     },
   //   ],
   // },
+  // ---- New section added from resume ----
+  {
+    title: "Databases",
+    skills: [
+      {
+        name: "Redis",
+        image: "https://api.iconify.design/logos:redis.svg",
+      },
+      {
+        name: "Elasticsearch",
+        image: "https://api.iconify.design/logos:elasticsearch.svg",
+      },
+    ],
+  },
+  // ---- New section added from resume ----
+  {
+    title: "Cloud & DevOps",
+    skills: [
+      {
+        name: "GCP",
+        image: "https://api.iconify.design/logos:google-cloud.svg",
+      },
+      {
+        name: "AWS",
+        image: "https://api.iconify.design/logos:aws.svg",
+      },
+      {
+        name: "Azure",
+        image: "https://api.iconify.design/logos:microsoft-azure.svg",
+      },
+      {
+        name: "Kubernetes",
+        image: "https://api.iconify.design/logos:kubernetes.svg",
+      },
+      {
+        name: "Cloudflare",
+        image: "https://api.iconify.design/logos:cloudflare-icon.svg",
+      },
+      {
+        name: "Nginx",
+        image: "https://api.iconify.design/logos:nginx.svg",
+      },
+      {
+        name: "GitHub Actions",
+        image: "https://api.iconify.design/logos:github-actions.svg",
+      },
+      {
+        name: "Electron",
+        image: "https://api.iconify.design/logos:electron.svg",
+      },
+    ],
+  },
+  // ---- New section added from resume ----
+  {
+    title: "AI / LLM",
+    skills: [
+      {
+        name: "OpenAI",
+        image: "https://api.iconify.design/logos:openai-icon.svg",
+      },
+      {
+        name: "Anthropic",
+        image: "https://cdn.simpleicons.org/anthropic/D97757",
+      },
+      {
+        name: "LangChain",
+        image: "https://cdn.simpleicons.org/langchain/FFFFFF",
+      },
+      {
+        name: "LiteLLM",
+        // NOTE: no widely-mirrored brand icon; using a generic AI/chip icon as a stand-in
+        image: "https://api.iconify.design/mdi:chip.svg",
+      },
+      {
+        name: "Vercel AI SDK",
+        image: "https://api.iconify.design/logos:vercel-icon.svg",
+      },
+      {
+        name: "RAG / Vector DBs",
+        // NOTE: no single brand icon for this concept; using a generic vector/database icon
+        image: "https://api.iconify.design/mdi:vector-square.svg",
+      },
+      {
+        name: "MCP",
+        // NOTE: Model Context Protocol has no widely-mirrored brand icon yet
+        image: "https://api.iconify.design/mdi:connection.svg",
+      },
+    ],
+  },
   {
     title: "Others",
     skills: [
@@ -211,13 +382,11 @@ export const skills = [
       },
       {
         name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image: "https://cdn.simpleicons.org/netlify/00C7B7",
       },
       {
         name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+        image: "https://cdn.simpleicons.org/visualstudiocode/007ACC",
       },
       {
         name: "Postman",
@@ -225,7 +394,10 @@ export const skills = [
       },
       {
         name: "Figma",
-        image: figmalogo,
+        // NOTE: this used to reference the local `figmalogo` import — if that file is missing/corrupted
+        // at src/images/figmalogo.png, swap back to `image: figmalogo,` once you've verified the asset exists.
+        // Using a reliable CDN fallback for now:
+        image: "https://cdn.simpleicons.org/figma/F24E1E",
       },
     ],
   },
@@ -234,26 +406,58 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: rapidcanvaslogo,
+    role: "Software Engineer - Fullstack",
+    company: "RapidCanvas",
+    date: "Oct 2025 - Present",
+    desc: "Re-platformed a ~250K-LOC React app to React 18, Vite 7, and TypeScript with isolated Redux stores in a zero-downtime migration, cutting build time by 65% and first load by 40%. Built in-browser VS Code (code-server) editing for DataApps and FastAPI apps — a React iframe workspace backed by Spring services that run code-server inside the user's own Kubernetes pod, with GitHub OAuth and one-click publish-and-redeploy. Delivered end-to-end FastAPI hosting on Kubernetes (deploy from a ZIP or Git repo with zero infra setup) including an embedded Swagger console and live logs over SSE, powered by a Spring/Protobuf launcher that provisions Kubernetes CRDs with autoscaling. Built Code Modules, letting users import reusable Python libraries into their pipelines via a React and Monaco Editor UI. Built the drag-and-drop ML-pipeline Canvas on React Flow v12 and used hash-keyed memoization to cut canvas re-renders by ~70%.",
+    skills: [
+      "React 18",
+      "Vite",
+      "TypeScript",
+      "Redux",
+      "React Flow",
+      "Monaco Editor",
+      "Spring Boot",
+      "FastAPI",
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "GCP",
+      "Protocol Buffers",
+      "SSE",
+      "GitHub OAuth",
+    ],
+    // doc: "",
+  },
+  {
+    id: 1,
     img: hashedinlogo,
     role: "Software Development Engineer",
     company: "Hashedin By Deloitte",
-    date: "Sep 2022 - Present",
-    desc: "Made Reusable Global Search Product Integrated on several Broadcom's Products that decreased the repetitive process of development by 70% thereby improving the efficiency of frontend developers and increased the efficiency of searching by 40%(approx). Made UI for Broadcom's enterprise product which decreased computational time by approximately 50% by billing users as per the exact ratio of virtual cloud computers (CPUs) they use eliminating the manual work of the computing team. Key contributor to a DigitalTwin technology product as a Core UI team member doing frontend development using ReactJS , Custom Tailwind CSS, ChartJS for real time monitoring of the wind power plant, MySQL Database, AWS, Clay UI, Formik for validations, YUP, and other powerful libraries decreasing the operating cost and manual human daily maintenance for wind power plants at the same time  maximizing the throughput of power generation. Collaborated closely with senior engineers for optimal project structure.",
+    date: "Sep 2022 - Sep 2025",
+    desc: "Built custom Looker dashboards and JS visualizations for Deloitte and Google accounts, automating KPI aggregation across entities and cutting manual reporting by 90% with sub-1-second render times. Developed Google Orion's AI-powered UI using React, TypeScript, and Tailwind CSS for real-time document analysis and contract extraction, integrating WebSocket and OpenAI to achieve 55% faster response times and reduce manual review by 70%. Led frontend development for Alnylam Pharmaceuticals, building medical workflows with React, Redux Toolkit, and Formik, integrated with OpenAI, Bedrock, and PGVector, cutting document generation time by 60% and manual effort by 70%. Earlier on this team, made a Reusable Global Search Product integrated across several of Broadcom's products, decreasing repetitive development work by 70% and improving search efficiency by 40%. Also built the UI for Broadcom's enterprise product, cutting computational billing time by ~50% by billing users per exact virtual CPU usage, and was a core UI contributor to a DigitalTwin product for real-time wind power plant monitoring using ReactJS, Tailwind CSS, Chart.js, MySQL, AWS, Clay UI, Formik, and Yup, reducing operating costs and manual maintenance while maximizing power generation throughput.",
     skills: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Redux Toolkit",
+      "Formik",
+      "OpenAI",
+      "AWS Bedrock",
+      "PGVector",
+      "WebSocket",
+      "Looker",
       "Docker",
-      "ReactJS",
       "AWS",
       "EC2",
       "AngularJS",
       "Nginx",
       "JavaScript",
-      "TypeScript",
       "Node Js",
       "Next Js",
       "HTML5",
       "CSS3",
-      "Tailwind CSS",
-      "Formik",
       "Yup",
       "BootStrap",
       "Redux",
@@ -287,12 +491,12 @@ export const experiences = [
   //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   // },
   {
-    id: 1,
+    id: 2,
     img: hashedinlogo,
-    role: "Software Development Engineer Intern",
+    role: "Associate Software Engineer",
     company: "Hashedin By Deloitte",
     date: "Jan 2022 - Sep 2022",
-    desc: "Worked on a Fleet based product improving truck driver's efficiency at work by providing real time data about the truck and potential near future issues to be taken of.",
+    desc: "Worked on a fleet-based logistics product, improving truck driver efficiency at work by 80% and cutting logistics operational costs by ~50% by providing real-time data about the truck and potential near-future issues to be taken care of.",
     skills: [
       "ReactJS",
       "Redux",
@@ -308,6 +512,41 @@ export const experiences = [
       "Spring Boot",
       "Python",
     ],
+  },
+  {
+    id: 3,
+    // TODO: replace with an actual Vixi Technologies logo once you have one
+    img: "https://ui-avatars.com/api/?name=Vixi+Technologies&background=854CE6&color=fff&size=128",
+    role: "Freelance Software Development Engineer",
+    company: "Vixi Technologies",
+    date: "Jul 2021 - Dec 2021",
+    desc: "Built the end-to-end frontend for Vixichain's Presale and CRM platforms using Vue.js, including OTP-based login and KYC review flows for streamlined client verification. Improved load times by 35% and boosted workflow efficiency by 25%, contributing to a successful fintech product launch across crypto and customer management systems, while working remotely and closely with product and QA teams.",
+    skills: [
+      "Vue.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "OTP Authentication",
+    ],
+    // doc: "",
+  },
+  {
+    id: 4,
+    // TODO: replace with an actual hEGI logo once you have one
+    img: "https://ui-avatars.com/api/?name=hEGI&background=854CE6&color=fff&size=128",
+    role: "Freelance Software Development Engineer",
+    company: "hEGI",
+    date: "Jan 2021 - May 2021",
+    desc: "Led frontend development and backend integration, enhancing UI/UX and boosting user engagement by 25%. Optimized performance, cutting load times by 30% and improving efficiency by 20%. Collaborated cross-functionally to ensure smooth deployment, driving a 15% rise in user satisfaction.",
+    skills: [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "React",
+      "Node Js",
+    ],
+    // doc: "",
   },
   // {
   //   id: 2,
