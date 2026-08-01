@@ -12,7 +12,7 @@ import vuelogo from '../images/vuejslogo.png';
 import cpplogo from '../images/cpplogo.png';
 import javalogo from '../images/javalogo.png';
 import springbootlogo from '../images/sprinbootlogo.png';
-import figmalogo  from '../images/figmalogo.png';
+// import figmalogo  from '../images/figmalogo.png';
 import postmanlogo from '../images/postmanlogo.png';
 import gitlogo from '../images/gitlogo.png';
 import playtubeimg from '../images/PlayTubeImg.png';
